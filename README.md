@@ -1,4 +1,4 @@
-# Bogarin_Anchored_Phylogenomics
+# Bogarin Anchored Phylogenomics
 A number of single purpose scripts used to analyse the dataset of Bogarin et al. 2018 (in prep)
 
 ### Project outline
