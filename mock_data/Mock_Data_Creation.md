@@ -11,11 +11,11 @@ In total the mock dataset represents less than 0.14 % of the data (20/14,472).
 For sake of completeness, below a summary of how the mock datasets were created.
 
 ### Original **Fasta** files (T272_L[1-5].fasta):
-T272_L1.fasta
-T272_L2.fasta
-T272_L3.fasta
-T272_L4.fasta
-T272_L5.fasta
+T272_L1.fasta  
+T272_L2.fasta  
+T272_L3.fasta  
+T272_L4.fasta  
+T272_L5.fasta  
 
 ### Extract Fasta headers (create **Headers.txt**)
 Fasta headers are identical for each of the 446 datasets.
