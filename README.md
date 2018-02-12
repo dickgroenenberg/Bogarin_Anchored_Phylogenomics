@@ -9,7 +9,7 @@ The second part of the project was to adjust the header for each read in every f
 Dependencies:
 [Blastn 2.6.0][BlastCmndline] or higher
 
-Once the data are published the full dataset will be available [somewhere][full_dataset]. In the meantime the [mock-dataset][mock] can be used to test the script. Upon execution of Autoblast[AutoBlast] in the folder containing the fasta files (Autoblast.sh requires input files with a \*.fasta extension) four folders will be created:
+Once the data are published the full dataset will be available [somewhere][full_dataset]. In the meantime the [mock-dataset][mock] can be used to test the script. Upon execution of [Autoblast][AutoBlast] in the folder containing the fasta files (Autoblast.sh requires input files with a \*.fasta extension) four folders will be created:
 Query         - contains the original input sequences
 Cleaned       - contains the cleaned sequences: Blast input files
 Blast_results - contains output from the Blast-search in XML format
