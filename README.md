@@ -10,10 +10,10 @@ Dependencies:
 [Blastn 2.6.0][BlastCmndline] or higher
 
 Once the data are published the full dataset will be available [somewhere][full_dataset]. In the meantime the [mock-dataset][mock] can be used to test the script. Upon execution of [Autoblast][AutoBlast] in the folder containing the fasta files (Autoblast.sh requires input files with a \*.fasta extension) four folders will be created:  
-Query         - contains the original input sequences  
-Cleaned       - contains the cleaned sequences: Blast input files  
-Blast_results - contains output from the Blast-search in XML format  
-Blast_sum     - contains a summary of Blast_results showing fasta header and the first 10 hits of each read  
+**Query**         - contains the original input sequences  
+**_Cleaned_**       - contains the cleaned sequences: Blast input files  
+**Blast_results** - contains output from the Blast-search in XML format  
+**Blast_sum**     - contains a summary of Blast_results showing fasta header and the first 10 hits of each read  
 
 Issues encountered:  
  * empty reads for some of the sequences, causing the search to stall
