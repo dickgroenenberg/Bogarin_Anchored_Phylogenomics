@@ -6,10 +6,10 @@
 # and performs a remote Blast-search on the NCBI server for each of these files.
 # Input files should have the extensino 'fasta'
 # After this script has finished the following folders will be created:
-#	"Query" 			(the original fasta files)
-#	"Cleaned"			(fasta files without empty reads or indels: Blast input)
+#	"Query" 		(the original fasta files)
+#	"Cleaned"		(fasta files without empty reads or indels: Blast input)
 #	"Blast_results"		(output from Blast-search in XML format: outfmt 5)
-#	"Blast_sum"			(summary containing first ten hits for each fasta header)
+#	"Blast_sum"		(summary containing first ten hits for each fasta header)
 #
 # usage: ./AutoBlast.sh
 #
