@@ -14,6 +14,10 @@ Once the data are published the full dataset will be available [somewhere][full_
 **Cleaned**    - contains the cleaned sequences: Blast input files  
 **Blast_results**    - contains output from the Blast-search in XML format  
 **Blast_sum**    - contains a summary of Blast_results showing fasta header and the first 10 hits of each read  
+| | | |
+|-|-|-|
+| Normal Key| Value1 |
+|__BoldKey__| Value2 |
 
 ### Issues encountered:  
  * empty reads for some of the sequences, causing the search to stall
