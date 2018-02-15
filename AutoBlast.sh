@@ -4,7 +4,7 @@
 #
 # Loops through all fasta files in the folder from where this script is initiated
 # and performs a remote Blast-search on the NCBI server for each of these files.
-# Input files should have the extensino 'fasta'
+# Input files should have the extension 'fasta'
 # After this script has finished the following folders will be created:
 #	"Query" 		(the original fasta files)
 #	"Cleaned"		(fasta files without empty reads or indels: Blast input)
