@@ -3,7 +3,7 @@ Some single purpose scripts used to Blast-search and batch rename the datasets (
 
 ### Project outline
 A dataset consisting of 446 **_fasta_** files (markers) containing 32 reads (taxa) each, needed to be Blast-searched against [GenBank][nBlast]. Blast-searches were run from the command line (using [Blastn 2.6.0][BlastCmndline]) to facilitate batch submission of input files and automatic download (and processing) of output files. Blast searches were done remotely at the NCBI-server; herewith bypassing a local download of the nt-database (~36 Gb compressed) and assuring searches against the most recent database. The downside of this approach is a reduction in speed, but all searches completed in less than a week. We did not search against a subset of taxa (such as Lephales or Orchidaceae) or markers, because we needed to verify the authenticity of the source organisms (check for contamination) and the targeted genes were not known. For each of the 14,472 (theoretical) searches the sequence header (fasta) along with the top ten best matching records had to be extracted. In a number of cases fasta files had empty reads or reads with numerous gaps. Although only the former should be a serious issue, our Blast-script removed both prior to searching.  
-The second part of the project was to adjust all fasta headers for submission to GenBank supposedly using ["Table to Asn"][tbl2asn] adhering to the "the minimum requirements to generate a Sequin file using tbl2asn"; _one_ **.sbt** file and _one or more_ **.fsa** files.
+The second part of the project was to adjust all fasta headers for submission to GenBank (supposedly) using ["Table to Asn"][tbl2asn] adhering to the "the minimum requirements to generate a Sequin file using tbl2asn"; _one_ **.sbt** file and _one or more_ **.fsa** files.
 
 ### Running the ['AutoBlast'][AutoBlast] script and example fasta files
 Dependencies:
@@ -18,7 +18,7 @@ Once the data are published the full dataset will be available [somewhere][full_
 ### Running the ['Rename'][Rename] script and example description file
 No dependencies
 
-This script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**Description.txt**) is a two column tab separated file (after Bogarin's "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. For the mock dataset an example of [Description.txt][Description] (for 5 instead of 446 fasta files) is given. Execution of [Rename.sh][Rename] will yield the folder:    
+This script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**Description.txt**) is a two column tab separated file (after Bogarin's "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. For the mock dataset an example of [Description.txt][Description] (also for 5 instead of 446 fasta files) is given. Execution of [Rename.sh][Rename] will yield the folder:    
 **Out** - contains the fasta files (\*.fsa) with adjusted headers (adjusted organism field, gene descriptions, failed reads removed)
 
 ### Possible improvements
