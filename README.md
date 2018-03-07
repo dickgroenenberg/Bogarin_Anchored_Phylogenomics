@@ -18,7 +18,7 @@ Once the data are published the full dataset will be available [somewhere][full_
 ### Running the ['Rename'][Rename] script
 No dependencies
 
-The script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**Description.txt**) is a two column tab separated file (after Bogarin's "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. Execution of [Rename.sh][Rename] will yield the folder:    
+The script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**Description.txt**) is a two column tab separated file (after Bogarin's "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. For the mock dataset an example of [Description.txt][Description] (for five fasta files) is given. Execution of [Rename.sh][Rename] will yield the folder:    
 **Out** - contains the fasta files (\*.fsa) with adjusted headers (adjusted organism field, gene descriptions, failed reads removed)
 
 ### Possible improvements
@@ -37,4 +37,5 @@ Currently the sequence identifiers (SeqID) are kept unmodified (as obtained from
 [mock]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/tree/master/mock_data
 [AutoBlast]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/scripts/AutoBlast.sh
 [Rename]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/scripts/Rename.sh
+[Description]:
 [Lemmon]:http://anchoredphylogeny.com/workflow/
