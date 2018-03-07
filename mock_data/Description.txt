@@ -1,0 +1,5 @@
+T272_L1	15-cis-zeta-carotene isomerase
+T272_L2	stimulating factor 64
+T272_L3	uncharacterized
+T272_L4	Translin-associated protein X
+T272_L5	AP3-complex subunit beta-A
