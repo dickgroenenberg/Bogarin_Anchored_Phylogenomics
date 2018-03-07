@@ -22,7 +22,7 @@ This script will work on the same set of fasta files but in addition requires a 
 **Out** - contains the fasta files (\*.fsa) with adjusted headers (adjusted organism field, gene descriptions, failed reads removed)
 
 ### Possible improvements
-Currently the sequence identifiers (SeqID) are kept unmodified (as obtained from the [Lemmon's pipeline][Lemmon]). The disadvantage of this approach is that for every _n_ th header in each fasta (\*.fsa) output file the SeqIDs are identical. Eventually SeqIDs only function as placeholder until replaced by GenBank accession numbers, so this should be only an issue for interim checks.
+Currently the sequence identifiers (SeqID) are kept unmodified (as obtained from the [Lemmon's pipeline][Lemmon]). The disadvantage of this approach is that for every _n_ th header in each fasta (\*.fsa) output file the SeqIDs are identical. Eventually SeqIDs only function as placeholder until replaced by GenBank accession numbers, so only for interim checks this could be an issue .
 
 ### Issues encountered:  
  * empty reads for some of the sequences, causing the search to stall
