@@ -35,5 +35,5 @@ Currently the sequence identifiers (SeqID) are kept unmodified (as obtained from
 [tbl2asn]:https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/
 [full_dataset]:https://science.naturalis.nl/en/people/scientists/diego-bogarin/
 [mock]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/tree/master/mock_data
-[AutoBlast]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/AutoBlast.sh
+[AutoBlast]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/scripts/AutoBlast.sh
 [Lemmon]:http://anchoredphylogeny.com/workflow/
