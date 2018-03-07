@@ -18,7 +18,7 @@ Once the data are published the full dataset will be available [somewhere][full_
 ### Running the 'Rename' script
 No dependencies
 
-The script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**.desc**) is a two column tab separated file (after Bogarins "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. Execution of this Rename.sh will yield the folder:    
+The script will work on the same set of fasta files but in addition requires a _descriptions_ file. The latter file (**.desc**) is a two column tab separated file (after Bogarin's "Lepanthes NGS Table.xls" < Blast_sum); column one consists of the fasta basename (T272_L1, T272_L2, T272_L3, etc. MS Excel sort descending) and column two of the gene descriptions. Execution of this Rename.sh will yield the folder:    
 **Out** - contains the fasta files (\*.fsa) with adjusted headers (adjusted organism field, gene descriptions, failed reads removed)
 
 ### Possible improvements
