@@ -37,5 +37,5 @@ Currently the sequence identifiers (SeqID) are kept unmodified (as obtained from
 [mock]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/tree/master/mock_data
 [AutoBlast]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/scripts/AutoBlast.sh
 [Rename]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/scripts/Rename.sh
-[Description]:
+[Description]:https://github.com/dickgroenenberg/Bogarin_Anchored_Phylogenomics/blob/master/mock_data/Description.txt
 [Lemmon]:http://anchoredphylogeny.com/workflow/
